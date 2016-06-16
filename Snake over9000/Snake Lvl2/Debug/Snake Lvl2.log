@@ -1,0 +1,21 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Snake Lvl2.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  SpeedSelectionArrow.cpp
+  SnakeBody.cpp
+c:\users\vitor\documents\visual studio 2015\projects\snake over9000\snake lvl2\snakebody.cpp(36): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\vitor\documents\visual studio 2015\projects\snake over9000\snake lvl2\snakebody.cpp(37): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  Player.cpp
+c:\users\vitor\documents\visual studio 2015\projects\snake over9000\snake lvl2\player.cpp(142): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\vitor\documents\visual studio 2015\projects\snake over9000\snake lvl2\player.cpp(174): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\vitor\documents\visual studio 2015\projects\snake over9000\snake lvl2\player.cpp(175): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\vitor\documents\visual studio 2015\projects\snake over9000\snake lvl2\player.cpp(190): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\vitor\documents\visual studio 2015\projects\snake over9000\snake lvl2\player.cpp(191): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  DrawEngine.cpp
+c:\users\vitor\documents\visual studio 2015\projects\snake over9000\snake lvl2\drawengine.cpp(103): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+c:\users\vitor\documents\visual studio 2015\projects\snake over9000\snake lvl2\drawengine.cpp(142): warning C4309: '=': truncation of constant value
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  main.cpp
+  Sprite.cpp
+  GameLogic.cpp
+  Apple.cpp
+  Snake Lvl2.vcxproj -> C:\Users\Vitor\Documents\Visual Studio 2015\Projects\Snake over9000\Debug\Snake Over 9000.exe

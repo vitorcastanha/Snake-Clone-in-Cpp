@@ -1,0 +1,45 @@
+﻿Build started 1/22/2016 12:25:03 AM.
+     1>Project "C:\Users\Vitor\Documents\Visual Studio 2015\Projects\Snake Lvl2\Snake Lvl2\Snake Lvl2.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (Snake Lvl2.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt Apple.cpp DrawEngine.cpp GameLogic.cpp main.cpp Player.cpp SnakeBody.cpp SpeedSelectionArrow.cpp Sprite.cpp
+         Apple.cpp
+     1>Apple.cpp(9): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+         DrawEngine.cpp
+     1>DrawEngine.cpp(73): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+     1>DrawEngine.cpp(107): warning C4309: '=': truncation of constant value
+         GameLogic.cpp
+         main.cpp
+         Player.cpp
+     1>Player.cpp(130): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+     1>Player.cpp(158): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+     1>Player.cpp(159): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+     1>Player.cpp(174): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+     1>Player.cpp(175): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+     1>Player.cpp(191): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+         SnakeBody.cpp
+     1>SnakeBody.cpp(26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+     1>SnakeBody.cpp(27): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+         SpeedSelectionArrow.cpp
+         Sprite.cpp
+     1>Sprite.cpp(25): warning C4838: conversion from 'int' to 'double' requires a narrowing conversion
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Vitor\Documents\Visual Studio 2015\Projects\Snake Lvl2\x64\Release\Snake Over 9000.exe" /INCREMENTAL:NO /NOLOGO Winmm.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Vitor\Documents\Visual Studio 2015\Projects\Snake Lvl2\x64\Release\Snake Over 9000.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Vitor\Documents\Visual Studio 2015\Projects\Snake Lvl2\x64\Release\Snake Over 9000.lib" /MACHINE:X64 x64\Release\Apple.obj
+         x64\Release\DrawEngine.obj
+         x64\Release\GameLogic.obj
+         x64\Release\main.obj
+         x64\Release\Player.obj
+         x64\Release\SnakeBody.obj
+         x64\Release\SpeedSelectionArrow.obj
+         x64\Release\Sprite.obj
+         Generating code
+         188 of 322 functions (58.4%) were compiled, the rest were copied from previous compilation.
+           166 functions were new in current compilation
+           25 functions had inline decision re-evaluated but remain unchanged
+         Finished generating code
+         Snake Lvl2.vcxproj -> C:\Users\Vitor\Documents\Visual Studio 2015\Projects\Snake Lvl2\x64\Release\Snake Over 9000.exe
+     1>Done Building Project "C:\Users\Vitor\Documents\Visual Studio 2015\Projects\Snake Lvl2\Snake Lvl2\Snake Lvl2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.42
